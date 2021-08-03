@@ -1,0 +1,28 @@
+pwd
+mkdir fail
+cd fail
+mkdir fail1 fail2 fail3
+cd fail1
+touch test1.txt test2.txt test3.txt test1.json test2.json
+mkdir fail4 fail5 fail6
+ls -la
+vim test1.txt
+cd ..
+mv test1.json test2.json ../fail2
+cp test2.txt test3.txt ../fail3
+find . -name 'test1*'
+cat test1.txt или cat -n test1.txt
+head -2 test1.txt
+cat test1.txt | tail -n2 
+less test1.txt
+date
+curl https://api.quarantine.country/api/v1/regions
+
+#!/bin/bash
+cd fail2
+mkdir p1 p2 p3 
+cd p1
+touch f1.txt t2.txt t3.txt t4.json t5.json
+mkdir p4 p5 p6
+ls -la
+mv t4.json t5.json ../p3
